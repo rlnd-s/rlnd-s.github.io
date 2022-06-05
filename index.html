@@ -1,29 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Roland's Portfolio</title>
-</head>
-
-<body>
+  </head>
+  <body>
     <h1>Roland's Portfolio</h1>
-    <hr>
-    <h2>About Me</h2>
-    <p>Hi! My name is Roland, i'm currently working in the online retail sector. I started to learn programming in 2022.</p>
-    <h2>Contact</h2>
-    <p><strong>lorem@ipsum.com</strong> Lorem ipsum dolor sit amet. +123456789</p> 
-    <h2>Projects</h2>
-    <ul>
-        <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi, harum.</li>
-        <li>Aperiam nesciunt cumque voluptas atque doloremque rem pariatur excepturi repudiandae.</li>
-        <li>Repellat hic cum amet consectetur quam dignissimos culpa facere cumque.</li>
-        <li>Cupiditate, corporis a culpa natus tempore doloribus sit iusto illo.</li>
-    </ul>
-</body>
-<footer>
-    <p>© 2022 Roland Szabo</p>
-</footer>
+
+    <section>
+      <h2>About Me</h2>
+      <p>
+        Hi! My name is Roland, i'm currently working in the online retail
+        sector. I started to learn programming in 2022.
+      </p>
+    </section>
+
+    <section>
+      <h2>Projects</h2>
+      <ul>
+        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+        <li>Facere aliquid quae laborum, porro eaque illum quia.</li>
+        <li>
+          Aliquam tempora eos blanditiis excepturi distinctio illo consequatur!
+        </li>
+        <li>
+          Facere adipisci, fugit earum exercitationem accusamus amet. Dolorem!
+        </li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+      <form action="https://formspree.io/f/mwkyyaal" method="post">
+        <input type="text" name="name" placeholder="Name" required />
+        <input type="email" name="email" placeholder="E-mail" required />
+        <label>
+          <textarea
+            required
+            name="message"
+            placeholder="Message..."
+            cols="30"
+            rows="10"
+          ></textarea>
+        </label>
+        <input type="submit" value="Submit" />
+      </form>
+    </section>
+  </body>
+  <footer>
+    © Roland Szabo 2022
+  </footer>
 </html>
